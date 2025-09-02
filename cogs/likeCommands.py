@@ -15,7 +15,7 @@ CONFIG_FILE = "like_channels.json"
 class LikeCommands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.api_host = "https://free-freefire-like-bot-pzb6.onrender.com"
+        self.api_host = "https://amdtsmodz.onrender.com/like?uid=7534574512&server_name=VN"
         self.config_data = self.load_config()
         self.cooldowns = {}
         self.session = aiohttp.ClientSession()
